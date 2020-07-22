@@ -11,18 +11,19 @@ const lightTheme = {
     heading: '#000',
     text: '#3B454E',
     preFormattedText: 'rgb(245, 247, 249)',
-    link: '#1000EE',
+    link: '#ee4c2c',
   },
 };
 
+//EE4C2C
 const darkTheme = {
   ...baseTheme,
   colors: {
-    background: '#001933',
+    background: '#000',
     heading: '#fff',
     text: '#fff',
     preFormattedText: '#000',
-    link: '#1ED3C6',
+    link: '#ee4c2c',
   },
 };
 

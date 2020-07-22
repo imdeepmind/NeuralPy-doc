@@ -90,7 +90,7 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
         },
       } = data;
 
-      const finalLogoLink = logo.link !== '' ? logo.link : 'https://hasura.io/';
+      const finalLogoLink = logo.link !== '' ? logo.link : 'https://neuralpy.xyz/';
 
       return (
         <div className={'navBarWrapper'}>
@@ -99,12 +99,14 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
               <Link to={finalLogoLink} className={'navBarBrand'}>
                 <img
                   className={'img-responsive displayInline'}
+                  style={{width: 55}}
                   src={logo.image !== '' ? logo.image : logoImg}
                   alt={'logo'}
                 />
               </Link>
               <div
                 className={'headerTitle displayInline'}
+                style={{marginTop: 0}}
                 dangerouslySetInnerHTML={{ __html: headerTitle }}
               />
             </div>
