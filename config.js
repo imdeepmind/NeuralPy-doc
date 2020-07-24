@@ -33,10 +33,10 @@ const config = {
   },
   sidebar: {
     forcedNavOrder: [
-      
+      'get-started', 'installation',  'docs', 'support'
     ],
     collapsedNav: [
-      '/codeblock', // add trailing slash if enabled above
+      '/docs', // add trailing slash if enabled above
     ],
     links: [{ text: 'GitHub', link: 'https://github.com/imdeepmind/NeuralPy' }],
     frontline: false,
