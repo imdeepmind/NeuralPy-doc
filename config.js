@@ -2,15 +2,14 @@ const config = {
   gatsby: {
     pathPrefix: '/',
     siteUrl: 'https://neuralpy.xyz',
-    gaTrackingId: null,
+    gaTrackingId: 'UA-124685583-3',
     trailingSlash: false,
   },
   header: {
     logo:
       'https://user-images.githubusercontent.com/34741145/81591141-99752900-93d9-11ea-9ef6-cc2c68daaa19.png',
     logoLink: 'https://neuralpy.xyz',
-    title:
-      "<a href='https://neuralpy.xyz'>NeuralPy</a>",
+    title: "<a href='https://neuralpy.xyz'>NeuralPy</a>",
     githubUrl: 'https://github.com/imdeepmind/NeuralPy',
     helpUrl: '',
     tweetText: '',
@@ -32,9 +31,7 @@ const config = {
     },
   },
   sidebar: {
-    forcedNavOrder: [
-      'get-started', 'installation',  'docs', 'support'
-    ],
+    forcedNavOrder: ['get-started', 'installation', 'docs', 'support'],
     collapsedNav: [
       '/docs', // add trailing slash if enabled above
     ],
